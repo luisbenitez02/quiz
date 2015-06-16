@@ -7,12 +7,12 @@
 </head>
 <body>
 	<h2>Quiz: El juego de las preguntas</h2> -->
+	
+	<form method="get" action="/quizes/answer" class="form-pregunta">
+		<p class="pregunta-text"> <%= pregunta %> </p>
+		<input type="text" name='respuesta' placeholder="Responda Aquí" value="" class="cajetin-p">
 
-	<form method="get" action="/quizes/answer">
-		Pregunta: <%= pregunta %> <p>
-		<input type="text" name='respuesta' placeholder="Responda Aquí" value="">
-
-		<input type="submit" value="Enviar">
+		<input type="submit" value="Enviar" class="boton-send">
 	</form>
 <!-- </body>
 </html> -->
